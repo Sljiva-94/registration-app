@@ -1,0 +1,49 @@
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc56;
+  border-radius: 5px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.button {
+  font-size: 16px;
+  background-color: #3db040;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #cccccc56;
+  color: #000000;
+  cursor: auto;
+}
+
+.button:disabled:hover {
+  background-color: #cccccc56;
+}
+
+.button:hover {
+  background-color: #3d8f41;
+}
